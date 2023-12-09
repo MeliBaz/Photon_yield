@@ -1,4 +1,5 @@
 # Photon yield
+• After running the Geant4 simulation, where the codes used for simulating the DIRC detector can be found at the link: https://github.com/rdom/prtdirc.
 • To run the simulation for different surface roughness values, the range of surface
 roughness in the shell script draw yield.sh can be adjusted. Once the simulations are complete, the line that executes the draw yield.C macro can be uncommented.<br>
 • The draw yield.C. macro will be used to create a root file containing the roughness, mean value of the number of generated photons, and mean error. Then, for
