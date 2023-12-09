@@ -1,5 +1,5 @@
 # Photon yield
-• After running the Geant4 simulation, where the codes used for simulating the DIRC detector can be found at the link: https://github.com/rdom/prtdirc.<br>
+• Codes used for simulating the DIRC detector with Geant4 toolkit can be found at the link: https://github.com/rdom/prtdirc.<br>
 
 
 • To run the simulation for different surface roughness values, the range of surface
