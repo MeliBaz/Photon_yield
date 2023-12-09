@@ -11,14 +11,17 @@ TCanvas* c1=new TCanvas();
 g1->SetLineColor(kRed);
 g2->SetLineColor(kBlue);
 g3->SetLineColor(kGreen);
+
 v_line->SetLineColor(kBlack);
- g1->GetXaxis()->SetLimits(0,50);
+g1->GetXaxis()->SetLimits(0,50);
 v_line->SetLineWidth(2);
 v_line->SetLineStyle(kDashed);
+
 g1->Draw("ALP");
 g2->Draw("LP same");
 g3->Draw("LP same");
 v_line->Draw("same");
+
 TLegend *legend = new TLegend(0.7,0.7,0.9,0.9);
 legend->SetTextSize(0.04);
 legend->AddEntry(g1,"20 deg","l");
